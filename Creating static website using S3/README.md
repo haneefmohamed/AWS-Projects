@@ -65,7 +65,7 @@ Uncheck - Block public and cross-account access if bucket has public policies (R
 
 ![Screenshot 2024-02-12 170252](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/9e298206-a9b9-4f27-b6ec-0b36778f5f0a)
 
-
+![Screenshot 2024-02-12 170341](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/3b2c3582-b933-4823-9de6-f86062aced80)
 
 
 Step 4 - Enable Website Hosting
@@ -79,4 +79,6 @@ Step 5 - Access Your Website (Testing/Validation)
 Access the site in browser: http://{bucket-name}.s3-website-{AWS-Region}.amazonaws.com
 
 For Example: http://pwdgen.s3-website-us-east-1.amazonaws.com/
+
+
 
