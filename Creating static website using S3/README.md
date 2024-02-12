@@ -36,9 +36,9 @@ Provide a globally unique name for bucket and select Region.
 
 Leave blank this field "Copy Settings from an existing bucket".
 
-![Screenshot 2024-02-12 170140](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/24c37d75-4851-41bb-91e0-0dcdd9bd4d59)
-
 Create Bucket
+
+![Screenshot 2024-02-12 170140](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/24c37d75-4851-41bb-91e0-0dcdd9bd4d59)
 
 Step 2 - Upload Content of your Website
 Upload the website contents to your S3 bucket including sub-folders.
@@ -51,6 +51,8 @@ css
 images
 
 Upload Contents
+
+
 
 Step 3 - Add a Bucket Policy to allow Public Read Access
 Go to Permissions Tab and update Public Access Setting:
