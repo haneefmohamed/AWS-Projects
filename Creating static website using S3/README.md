@@ -52,7 +52,7 @@ images
 
 Upload Contents
 
-
+![Screenshot 2024-02-12 170208](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/f9e71ef5-f60f-4d01-95b4-2aec24e866a5)
 
 Step 3 - Add a Bucket Policy to allow Public Read Access
 Go to Permissions Tab and update Public Access Setting:
@@ -62,6 +62,8 @@ Uncheck Manage public bucket policies:
 Uncheck - Block new public bucket policies (Recommended)
 
 Uncheck - Block public and cross-account access if bucket has public policies (Recommended)
+
+
 
 Step 4 - Enable Website Hosting
 In order to serve assets via url, you need to enable Website Hosting
