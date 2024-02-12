@@ -63,6 +63,9 @@ Uncheck - Block new public bucket policies (Recommended)
 
 Uncheck - Block public and cross-account access if bucket has public policies (Recommended)
 
+![Screenshot 2024-02-12 170252](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/9e298206-a9b9-4f27-b6ec-0b36778f5f0a)
+
+
 
 
 Step 4 - Enable Website Hosting
