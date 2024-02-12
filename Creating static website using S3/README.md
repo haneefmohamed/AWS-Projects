@@ -59,3 +59,16 @@ Uncheck Manage public bucket policies:
 Uncheck - Block new public bucket policies (Recommended)
 
 Uncheck - Block public and cross-account access if bucket has public policies (Recommended)
+
+Step 4 - Enable Website Hosting
+In order to serve assets via url, you need to enable Website Hosting
+
+Go to Properties and enable "Static Website Hosting" option
+
+Note the endpoint. http://{bucket-name}.s3-website-{AWS-Region}.amazonaws.com
+
+Step 5 - Access Your Website (Testing/Validation)
+Access the site in browser: http://{bucket-name}.s3-website-{AWS-Region}.amazonaws.com
+
+For Example: http://pwdgen.s3-website-us-east-1.amazonaws.com/
+
