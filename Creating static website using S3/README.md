@@ -36,6 +36,7 @@ Provide a globally unique name for bucket and select Region.
 
 Leave blank this field "Copy Settings from an existing bucket".
 
+![Screenshot 2024-02-12 170140](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/24c37d75-4851-41bb-91e0-0dcdd9bd4d59)
 
 Create Bucket
 
