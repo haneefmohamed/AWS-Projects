@@ -81,4 +81,4 @@ Access the site in browser: http://{bucket-name}.s3-website-{AWS-Region}.amazona
 For Example: http://pwdgen.s3-website-us-east-1.amazonaws.com/
 
 
-
+![Screenshot 2024-02-12 170404](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/5d4c44ef-4c50-428d-9818-9e3dc57b6f66)
