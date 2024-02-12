@@ -21,3 +21,41 @@ Scalability: Amazon S3 is inherently scalable. For popular websites, the Amazon 
 
 Availability: In addition, by hosting with Amazon S3, the website is inherently highly available.
 
+
+# Set-Up Instructions
+Below are the steps to deploy static Website on Amazon S3. You can follow these instructions to deploy your own static Website.
+
+Open AWS Management console. Select S3 under Storage.
+
+Step 1 - Create an S3 Bucket
+When you first create an S3 bucket, you select the AWS Region in which the files will be geographically stored.
+
+Click on "Create Bucket" button.
+
+Provide a globally unique name for bucket and select Region.
+
+Leave blank this field "Copy Settings from an existing bucket".
+
+
+Create Bucket
+
+Step 2 - Upload Content of your Website
+Upload the website contents to your S3 bucket including sub-folders.
+
+For Example: You can use sample Website "Website" folder contents (provided in this repository).
+
+index.html
+error.html
+css
+images
+
+Upload Contents
+
+Step 3 - Add a Bucket Policy to allow Public Read Access
+Go to Permissions Tab and update Public Access Setting:
+
+Uncheck Manage public bucket policies:
+
+Uncheck - Block new public bucket policies (Recommended)
+
+Uncheck - Block public and cross-account access if bucket has public policies (Recommended)
