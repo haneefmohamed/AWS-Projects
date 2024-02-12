@@ -12,4 +12,12 @@ Amazon Route 53: You can also use Amazon Route 53 (a managed Domain Name System 
 
 Amazon CloudFront: You can also use Amazon CloudFront to enable your website to load quickly. Amazon CloudFront will create a content delivery network (CDN) that hosts your website content in close proximity to your users.
 
+# Advantages of Hosting Website on S3
+Here are some of the advantages of hosting site on S3
+
+Performance: The website will be highly performant and scalable at a fraction of the cost of a traditional Web server.
+
+Scalability: Amazon S3 is inherently scalable. For popular websites, the Amazon S3 architecture will scale seamlessly to serve thousands of HTTP requests per second without any changes to the architecture.
+
+Availability: In addition, by hosting with Amazon S3, the website is inherently highly available.
 
