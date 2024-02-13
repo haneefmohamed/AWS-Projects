@@ -1,4 +1,5 @@
-#Create an alarm using the Amazon EC2 console
+# Create an alarm using the Amazon EC2 console
+
 Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
 
 In the navigation pane, choose Instances.
