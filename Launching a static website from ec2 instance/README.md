@@ -76,7 +76,7 @@ And in programming, when you do something for the first time, you usually say he
 
 Step 11. We can see our EC2 instance is running but if we don’t need it, we can go to the instance state and then click on stop instance. And in the Cloud, you can start and stop instances just as you wish. The longer you leave it running, the more you’re going to pay. But if you decide to stop an instance, then AWS will not bill you for it. While the instance is in a stopping state and if we try to refresh our webpage it’s not going to work because you don’t have the server running anymore.
 
-If you stop an instance and then start it later on and if we go to the browser and try again we can’t able to see our webpage. Even though the server is running we can’t able to see the message.  It’s because If you stop an instance and then you start it, later on, AWS changes its public IPv4 address. So, therefore, you need to copy the new IPv4 and make sure to use HTTP to have access back to our EC2 instance. If you finally want to get rid of this instance we can do an instance state and then terminate the instance.
+If you stop an instance and then start it later on and if we go to the browser and try again we won't be able to see our webpage. Even though the server is running we won't be able to see the message.  It’s because If you stop an instance and then you start it, later on, AWS changes its public IPv4 address. So, therefore, you need to copy the new IPv4 and make sure to use HTTP to have access back to our EC2 instance. If you finally want to get rid of this instance we can do an instance state and then terminate the instance.
 
 ![Instance](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/125ea46f-fb43-4daf-b5b1-544eec3ee96a)
 
