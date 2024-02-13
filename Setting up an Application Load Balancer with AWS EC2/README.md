@@ -10,7 +10,7 @@ Application Load Balancer (ALB) — operates at layer 7 of the OSI model and is 
 Network Load Balancer (NLB) — operates at layer 4 of the OSI model and is ideal for applications that require high throughput and low latency.
 Classic Load Balancer (CLB) — operates at layer 4 of the OSI model and is ideal for applications that require basic load balancing features.
 
-Steps:
+Step:
 1:
 launch 2 EC2 instances with an Ubuntu AMI and use User Data to install the Apache Web Server.
 
