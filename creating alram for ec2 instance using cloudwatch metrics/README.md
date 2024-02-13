@@ -18,7 +18,8 @@ For Alarm action, choose whether to specify an action to take when the alarm is 
 For Alarm thresholds, select the metric and criteria for the alarm. For example, to create an alarm that is triggered when CPU utilization reaches 80% for a 5 minute period, do the following:
 
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmt%2Faws-config-support-for-amazon-cloudwatch-alarms%2F&psig=AOvVaw1YlLu1KwX6xkBdX2l04qTH&ust=1707905462567000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDwruiJqIQDFQAAAAAdAAAAABAD
+![Example-Picture-1-2](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/437fdd9a-027c-4d2c-9753-a07a52eae125)
+
 
 
 Keep the default setting for Group samples by (Average) and Type of data to sample (CPU utilization).
