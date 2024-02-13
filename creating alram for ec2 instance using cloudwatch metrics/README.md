@@ -13,10 +13,13 @@ For Alarm notification, choose whether to configure Amazon Simple Notification S
 ![sns_-_topic_details](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/30900026-d51c-43b2-81d5-cc6b6e800552)
 
 
-
 For Alarm action, choose whether to specify an action to take when the alarm is triggered. Choose an action from the list.
 
 For Alarm thresholds, select the metric and criteria for the alarm. For example, to create an alarm that is triggered when CPU utilization reaches 80% for a 5 minute period, do the following:
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmt%2Faws-config-support-for-amazon-cloudwatch-alarms%2F&psig=AOvVaw1YlLu1KwX6xkBdX2l04qTH&ust=1707905462567000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDwruiJqIQDFQAAAAAdAAAAABAD
+
 
 Keep the default setting for Group samples by (Average) and Type of data to sample (CPU utilization).
 
