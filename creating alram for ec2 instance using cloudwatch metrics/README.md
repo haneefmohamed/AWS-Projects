@@ -10,6 +10,10 @@ On the Manage CloudWatch alarms detail page, under Add or edit alarm, select Cre
 
 For Alarm notification, choose whether to configure Amazon Simple Notification Service (Amazon SNS) notifications. Enter an existing Amazon SNS topic or enter a name to create a new topic.
 
+![sns_-_topic_details](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/30900026-d51c-43b2-81d5-cc6b6e800552)
+
+
+
 For Alarm action, choose whether to specify an action to take when the alarm is triggered. Choose an action from the list.
 
 For Alarm thresholds, select the metric and criteria for the alarm. For example, to create an alarm that is triggered when CPU utilization reaches 80% for a 5 minute period, do the following:
