@@ -175,37 +175,12 @@ There are multiple AllowOverride lines in this file; be sure you change the line
 
 AllowOverride All
 Save the file and exit your text editor.
+
 7. Map IP Address and Domain Name
 To use your blog in production, you will have to:
 
 Associate an IP address to your instance
 Map your domain name to that IP address
-
-To associate an IP address to your instance:
-
-Steps:
-In the AWS Management Console, click Elastic IPs (left navigation bar)
-Click Allocate New Address, and confirm by clicking the “Yes, Allocate” button
-Right-click the newly allocated IP address and select “Associate” in the popup menu. Select the instance you just created and click “Yes, Associate”
-To map your domain name to your IP address, you will have to use the tools provided by your domain registrar.
-If you use GoDaddy, specify NS73.DOMAINCONTROL.COM and NS74.DOMAINCONTROL.COM as the name servers for your domain, and use the DNS Manager to modify the A record and point to your IP address.
-Once everything is configured and mapped correctly, access the General Settings in the WordPress management console and make sure the WordPress Address and Site Address are specified correctly using your domain name
-Other Method: To change your WordPress site URL with the wp-cli
-Note the old site URL and the new site URL for your instance. The old site URL is likely the public DNS name for your EC2 instance when you installed WordPress. The new site URL is the current public DNS name for your EC2 instance.
-
-If you are not sure of your old site URL, you can use curl to find it with the following command.
-
-[ec2-user ~]$ curl localhost | grep wp-content
-You should see references to your old public DNS name in the output, which will look like this (old site URL in red):
-
-<script type='text/javascript' src= http://ec2-50-17-15-27.compute-1.amazonaws.com/blog/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
-Download the wp-cli with the following command.
-
-[ec2-user ~]$ curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-Search and replace the old site URL in your WordPress installation with the following command. Substitute the old and new site URLs for your EC2 instance and the path to your WordPress installation (usually /var/www/html or /var/www/html/blog).
-
-[ec2-user ~]$ php wp-cli.phar search-replace 'old_site_url' 'new_site_url' --path=/path/to/wordpress/installation --skip-columns=guid
-In a web browser, enter the new site URL of your WordPress blog to verify that the site is working properly again.
 
 That’s it.
 
