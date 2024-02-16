@@ -14,6 +14,7 @@ Step 3: Set the User's Access Permissions and Name
 In the Set user details section,
 
 -In the User name field, enter the name of the new user (for example, "Provazio" — recommended).
+
 -In the Access type field, check the Programmatic access option to allow the user only programmatic access.
 
 ![image](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/456a77df-3e4f-40f5-ace3-7caf0538bc95)
