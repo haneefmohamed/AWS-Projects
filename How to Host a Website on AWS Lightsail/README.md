@@ -1,3 +1,5 @@
+# Hosting a website on AWS lightsail
+
 Step 1:
 Create a Lightsail Instance
 Once you sign up with Amazon Lightsail, you can create your first Lightsail Instance.
