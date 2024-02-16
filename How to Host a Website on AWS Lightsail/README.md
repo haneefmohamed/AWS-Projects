@@ -59,6 +59,7 @@ Although it is okay to visit your website via an IP address, your visitors will 
 Then, you need to enter the DNS records on your domain name depending on where you purchased it.  The DNS servers may look like this:
 
 ns-806.awsdns-36.net
+
 ns-494.awsdns-61.com
 
 That's all !!
