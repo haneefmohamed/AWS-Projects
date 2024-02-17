@@ -7,9 +7,11 @@ In this case, we have an instance we launched with the permissions for the IAM r
 
 {
   “Version”: “2012-10-17”,
+ 
   “Statement”: [
+   
     {
-      “Effect”: “Allow”,
+     “Effect”: “Allow”,
       “Action”: [
         “logs:*”
       ],
