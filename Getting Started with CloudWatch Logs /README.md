@@ -6,23 +6,16 @@ CloudWatch uses the Identity and Access Management (IAM) service for authenticat
 In this case, we have an instance we launched with the permissions for the IAM role for all logs actions with the following policy
 
 {
- 
   “Version”: “2012-10-17”,
- 
   “Statement”: [
-  
     {
       “Effect”: “Allow”,
       “Action”: [
         “logs:*”
-        
       ],
-      
       “Resource”: [
-       
         “arn:aws:logs:*:*:*”
       ]
     }
   ]
 }
-
