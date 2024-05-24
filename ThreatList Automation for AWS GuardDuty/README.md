@@ -46,4 +46,40 @@ Click on upload -> choose file -> Threatlist.txt -> Upload
 
 ![Screenshot 2024-05-24 124229](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/d230497f-902a-42c2-a16c-61b07dd08fee)
 
+### 4. Add the Threat List to GuardDuty
 
+Go to the AWS Management Console.
+
+Navigate to GuardDuty.
+
+In the GuardDuty dashboard, select Lists from the left-hand menu.
+
+![image](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/89001f2e-52d1-43a6-8721-cfd6b5e1d2f8)
+
+Click on Add a Threat List.
+
+![image](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/98bb125c-37b3-4d5a-bd0f-649807913230)
+
+Fill in the details
+
+![image](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/057ebd75-29cf-42a8-9d55-fda74cf0b957)
+
+Click Add.
+
+### 5. Activate the Threat List
+
+After adding the threat list, it needs to be activated.
+In the GuardDuty dashboard, go to Lists.
+Find your newly added threat list (threatlist) and activate it.
+
+### 6. View GuardDuty Findings
+
+Navigate to the Findings section in the GuardDuty dashboard.
+Here you can see the findings based on the threat list you uploaded.
+
+![image](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/6f008196-d637-4438-835d-f9ac65bab416)
+
+![image](https://github.com/haneefmohamed/AWS-Projects/assets/159698808/bc155b50-e7b7-41d3-82d8-e071f61a1d58)
+
+## Conclusion
+By following these steps, you have successfully created and uploaded a threat list to an S3 bucket, integrated it with AWS GuardDuty, and activated it to monitor for threats. If you have any issues or questions, please refer to the AWS GuardDuty Documentation or open an issue in this repository.
